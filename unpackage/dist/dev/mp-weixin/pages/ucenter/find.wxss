@@ -1,0 +1,25 @@
+
+.content {
+		border: none;
+}
+.scanning{
+		margin-top: 20rpx;
+}
+.nearly{
+		margin-top: 20rpx;
+}
+.leisure{
+		margin-top: 15rpx;
+}
+.programming{
+		margin-top: 20rpx;
+}
+.btn {
+		text-align: left;
+}
+.content image {
+		width: 45rpx;
+		height: 45rpx;
+		margin-right: 10rpx;
+}
+

@@ -1,0 +1,70 @@
+
+.content {
+		text-align: center;
+		height: 200rpx;
+}
+.item {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+}
+.message {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		margin-left: 50rpx;
+}
+.title {
+		font-size: 36rpx;
+		margin-top: 20px;
+}
+.head image {
+		width: 60px;
+		height: 60px;
+	       margin-left: 20rpx;
+		margin-top: 20rpx;
+}
+.WeChatId {
+		font-size: 30rpx;
+		color: #8F8F94;
+}
+.pay image {
+		width: 23px;
+		height: 23px;
+		margin-right: 10px;
+}
+.pay{
+		margin-top: 15rpx;
+}
+.collect image {
+		width: 23px;
+		height: 23px;
+		margin-right: 10px;
+}
+.collect{
+		margin-top: 15rpx;
+}
+.ba image {
+		width: 23px;
+		height: 23px;
+		margin-right: 10px;
+}
+.set image {
+		width: 23px;
+		height: 23px;
+		margin-right: 10px;
+}
+.set{
+		margin-top: 15rpx;
+}
+.bth {
+		text-align: left;
+}
+

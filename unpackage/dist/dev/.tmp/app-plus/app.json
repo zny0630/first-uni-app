@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/ucenter/me",
+    "pages/ucenter/contacts",
+    "pages/ucenter/find",
+    "pages/ucenter/friend",
+    "pages/ucenter/scan",
+    "pages/ucenter/shake",
+    "pages/ucenter/near",
+    "pages/ucenter/shop",
+    "pages/ucenter/game",
+    "pages/ucenter/program",
+    "pages/ucenter/wechat",
+    "pages/ucenter/setting"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#2F85FC",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/ucenter/wechat",
+        "iconPath": "static/chat.png",
+        "selectedIconPath": "static/chat-active.png",
+        "text": "微信"
+      },
+      {
+        "pagePath": "pages/ucenter/contacts",
+        "iconPath": "static/contacts.png",
+        "selectedIconPath": "static/contacts-active.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/ucenter/find",
+        "iconPath": "static/find.png",
+        "selectedIconPath": "static/find-active.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/ucenter/me",
+        "iconPath": "static/me.png",
+        "selectedIconPath": "static/me-active.png",
+        "text": "我"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "first-uni-app"
+}

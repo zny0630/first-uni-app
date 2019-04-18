@@ -1,0 +1,118 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path":"pages/ucenter/me",
+			"style":{
+				"navigationBarTitleText":"我的"
+			}
+		},
+		{
+			"path":"pages/ucenter/contacts",
+			"style":{
+				"navigationBarTitleText":"通讯录"
+			}
+		},
+		
+		
+		{
+			"path":"pages/ucenter/find",
+			"style":{
+				"navigationBarTitleText":"发现"
+			}
+		},
+		{
+			"path":"pages/ucenter/friend",
+			"style":{
+				"navigationBarTitleText":"朋友圈"
+			}
+		},
+		{
+			"path":"pages/ucenter/scan",
+			"style":{
+				"navigationBarTitleText":"扫一扫"
+			}
+		},
+		{
+			"path":"pages/ucenter/shake",
+			"style":{
+				"navigationBarTitleText":"摇一摇"
+			}
+		},
+		{
+			"path":"pages/ucenter/near",
+			"style":{
+				"navigationBarTitleText":"附近的人"
+			}
+		},
+		{
+			"path":"pages/ucenter/shop",
+			"style":{
+				"navigationBarTitleText":"购物"
+			}
+		},
+		{
+			"path":"pages/ucenter/game",
+			"style":{
+				"navigationBarTitleText":"游戏"
+			}
+		},
+		{
+			"path":"pages/ucenter/program",
+			"style":{
+				"navigationBarTitleText":"小程序"
+			}
+		},
+		
+		{
+			"path":"pages/ucenter/wechat",
+			"style":{
+				"navigationBarTitleText":"微信"
+			}
+		},
+		{
+			"path":"pages/ucenter/setting",
+			"style":{
+				"navigationBarTitleText":"微信"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#2F85FC",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/ucenter/wechat",
+				"iconPath": "static/chat.png",
+				"selectedIconPath": "static/chat-active.png",
+				"text": "微信"
+			},
+			{
+				"pagePath": "pages/ucenter/contacts",
+				"iconPath": "static/contacts.png",
+				"selectedIconPath": "static/contacts-active.png",
+				"text": "通讯录"
+			},
+			{
+				"pagePath": "pages/ucenter/find",
+				"iconPath": "static/find.png",
+				"selectedIconPath": "static/find-active.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/ucenter/me",
+				"iconPath": "static/me.png",
+				"selectedIconPath": "static/me-active.png",
+				"text": "我"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+	}
+}

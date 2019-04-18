@@ -1,0 +1,46 @@
+
+.content {
+	text-align: center;
+	height: 1150rpx;
+	background-color: #EEEEEE;
+}
+.top {
+	margin-top: 60rpx;
+	height: 46rpx;
+	font-size: 36rpx;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	background-color: #EEEEEE;
+}
+.top2 image {
+	width: 100rpx;
+	height: 100rpx;
+}
+.top-c {
+	width: 35rpx;
+	height: 35rpx;
+	margin-right: 8rpx;
+}
+.tong {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 36rpx;
+	text-align: left;
+	background-color: #EEEEEE;
+	padding: 10rpx 10rpx 10rpx 10rpx;
+	border: 1rpx;
+	border-radius: 10rpx;
+}
+.tong-p {
+	margin-left: 5rpx;
+}
+
